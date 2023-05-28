@@ -46,7 +46,7 @@ main{
     height: 600px;
     left: 200px;
     padding-left: 100px;
-    width: 1080;
+    width: 1080px;
 }
 
 .primer-texto{
@@ -258,6 +258,21 @@ flex-grow: 0;
 
 .ocultar{
     display: none;
+}
+
+.rodapie{
+
+    position: absolute;
+    color: #495057;
+    display: flex;
+    gap: 8px;
+    height: 16px;
+    left: 100px;
+    width: 229px;
+    font-size: 12px;
+    flex-direction: row;
+    top: 140%;
+
 }
 
 
